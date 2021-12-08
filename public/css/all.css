@@ -22,13 +22,8 @@ h2 span { color: #1b75bc; }
 #features li { margin-top: 20px; }
 .btn:disabled{opacity: 0.7;}
 
-#aboutSection {
-  background-color: #000;
-  background-image: url(/images/members-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  color:#FFF;
-}
+#aboutSection { background-color: #000; background-image: url(/images/members-bg.jpg); background-position: center center; background-size: cover; color:#FFF; }
+#attendanceSection { background-color: #000; background-image: url(/images/members-bg.jpg); background-position: center center; background-size: cover; color:#FFF; }
 
 .homeSection {
   padding-top: 70px;
