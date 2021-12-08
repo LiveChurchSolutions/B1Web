@@ -32,6 +32,7 @@ h2 span { color: #1b75bc; }
 
 .homeSection.alt h2 span { color:#299ffc;}
 .homeSection.alt .title { color:#299ffc;}
+.homeSection.alt a { color: #299ffc; }
 
 .title {font-size:14px; text-transform: uppercase;margin-bottom: 10px;color:#1b75bc;font-weight: bold;}
 .title span {color:#FFF;}

@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeHero, About, HomeFeatures, HomeRegister, Header, Donate, Attendance } from "./components"
+import { HomeHero, About, HomeFeatures, HomeRegister, Header, Donate, Attendance, Directory, LiveStream } from "./components"
 
 export const Home = () => (
   <>
@@ -8,7 +8,9 @@ export const Home = () => (
     <About />
     <Donate />
     <Attendance />
-    <HomeFeatures />
+    <Directory />
+    <LiveStream />
+
     <HomeRegister />
   </>
 )
