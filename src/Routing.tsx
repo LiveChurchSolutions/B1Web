@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Home } from "./Home";
 import { Switch, Route, useLocation } from "react-router-dom";
 import ReactGA from "react-ga";

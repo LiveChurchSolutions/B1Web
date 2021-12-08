@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeHero, About, HomeFeatures, HomeRegister, Header, Donate, Attendance, Directory, LiveStream } from "./components"
+import { HomeHero, About, HomeRegister, Header, Donate, Attendance, Directory, LiveStream } from "./components"
 
 export const Home = () => (
   <>
