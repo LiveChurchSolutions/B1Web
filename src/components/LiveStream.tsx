@@ -1,6 +1,6 @@
 import React from "react";
 export const LiveStream: React.FC = () => (
-  <div id="attendanceSection" className="homeSection alt">
+  <div className="homeSection alt">
     <div className="container">
 
       <div className="row">

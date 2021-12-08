@@ -13,23 +13,14 @@ h2 span { color: #1b75bc; }
 #hero h1 { font-size: 60px; color: #1b75bc; font-weight: bold; }
 #hero p { font-size: 20px; margin-bottom: 40px; }
 #hero .btn { text-shadow: none; }
-#benefits { padding-top: 70px; padding-bottom: 70px; }
-#features { padding-top: 70px; padding-bottom: 70px; background-color: #24b9ff; color: #FFF; }
-#features a, #features a:hover { color: #FFF; text-decoration: underline; }
 #register { padding-top: 40px; padding-bottom: 80px; }
 #registerBox { background-color: #EEE; border: 1px solid #CCC; border-radius: 5px; padding: 20px; }
 #logo { height: 35px; margin-top: 5px; margin-bottom: 5px; }
 #features li { margin-top: 20px; }
 .btn:disabled{opacity: 0.7;}
 
-#aboutSection { background-color: #000; background-image: url(/images/members-bg.jpg); background-position: center center; background-size: cover; color:#FFF; }
-#attendanceSection { background-color: #000; background-image: url(/images/members-bg.jpg); background-position: center center; background-size: cover; color:#FFF; }
-
-.homeSection {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
+.homeSection { padding-top: 70px; padding-bottom: 70px;}
+.homeSection.alt {background-color: #000; background-image: url(/images/members-bg.jpg); background-position: center center; background-size: cover; color:#FFF; }
 .homeSection.alt h2 span { color:#299ffc;}
 .homeSection.alt .title { color:#299ffc;}
 .homeSection.alt a { color: #299ffc; }

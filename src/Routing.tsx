@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 import { Home } from "./Home";
-import { Privacy } from "./Privacy";
-import { Terms } from "./Terms";
 import { Switch, Route, useLocation } from "react-router-dom";
 import ReactGA from "react-ga";
 import { EnvironmentHelper } from "./helpers";
@@ -19,8 +17,6 @@ export const Routing: React.FC = () => {
   return (
     <Switch>
       <Route path="/login"><Login /></Route>
-      <Route path="/privacy"><Privacy /></Route>
-      <Route path="/terms"><Terms /></Route>
       <Route path="/"><Home /></Route>
     </Switch>
   );
