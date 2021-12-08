@@ -1,10 +1,11 @@
 import React from "react";
-import { HomeHero, HomeBenefits, HomeFeatures, HomeRegister } from "./components"
+import { HomeHero, About, HomeFeatures, HomeRegister, Header } from "./components"
 
 export const Home = () => (
   <>
+    <Header />
     <HomeHero />
-    <HomeBenefits />
+    <About />
     <HomeFeatures />
     <HomeRegister />
   </>

@@ -6,7 +6,6 @@ import { Terms } from "./Terms";
 import { Switch, Route, useLocation } from "react-router-dom";
 import ReactGA from "react-ga";
 import { EnvironmentHelper } from "./helpers";
-import { Forgot } from "./Forgot";
 import { Login } from "./Login";
 
 export const Routing: React.FC = () => {
@@ -19,7 +18,6 @@ export const Routing: React.FC = () => {
 
   return (
     <Switch>
-      <Route path="/forgot"><Forgot /></Route>
       <Route path="/login"><Login /></Route>
       <Route path="/privacy"><Privacy /></Route>
       <Route path="/terms"><Terms /></Route>
