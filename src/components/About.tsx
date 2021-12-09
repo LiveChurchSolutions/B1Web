@@ -10,7 +10,7 @@ export const About: React.FC = () => (
           <h2>About <span>B1.Church</span></h2>
           <p style={{ marginTop: 20 }} className="lead">B1.church is a mobile app and website that helps congregations stay connected.</p>
           <p>Providing a simple and seemless way for your congregation to connect is a critical need in the modern church.  B1.church provides a way to do this at home, at church or wherever they may be, via their phone.</p>
-          <p>B1 integrates all of the ChurchApps services and external resources into one simple app which can be fully customized to meet your congregational needs.  This includes all of the most common needs such as online giving, attendance self-checkin, access to your live stream, quick Bible reference, a member directory, announcements, small group lessons, and more.</p>
+          <p>B1 integrates all of the ChurchApps services and external resources into one simple app which can be fully customized to meet your congregational needs.  This includes all of the most common needs such as online giving, attendance, self check-in, access to your live stream, quick Bible reference, a member directory, announcements, small group lessons, and more.</p>
         </div>
       </div>
     </div>
